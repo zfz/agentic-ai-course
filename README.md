@@ -4,8 +4,10 @@ Notes, assignments, and exercises for the DeepLearning.AI course **Agentic AI** 
 
 ## Structure
 
-- `course-notes/` — per-module summary notes from the course slides
+- `notes/` — per-module summary notes from the course slides
+- `quizzes/` — per-module quiz questions and answers
 - `assignments/` — course assignment notebooks
+- `labs/` — ungraded lab notebooks
 - `requirements.txt` — Python dependencies for the labs
 - `.python-version` — pyenv-pinned Python version for this project
 
