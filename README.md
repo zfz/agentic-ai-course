@@ -19,3 +19,7 @@ python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
+
+## Key dependency
+
+- `aisuite==0.1.11` — a uniform access layer for LLMs, co-authored by Andrew Ng, giving one consistent Python interface (`ai.Client()`) across multiple LLM providers, with model selection via `"provider:model"` strings (e.g. `"openai:gpt-4o"`, `"anthropic:claude-3-5-sonnet-20240620"`).
