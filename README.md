@@ -2,24 +2,6 @@
 
 Notes, assignments, and exercises for the DeepLearning.AI course **Agentic AI** by Andrew Ng (learn.deeplearning.ai).
 
-## Structure
-
-- `notes/` — per-module summary notes from the course slides
-- `quizzes/` — per-module quiz questions and answers
-- `assignments/` — course assignment notebooks
-- `labs/` — ungraded lab notebooks
-- `requirements.txt` — Python dependencies for the labs
-- `.python-version` — pyenv-pinned Python version for this project
-
-## Setup
-
-```bash
-pyenv local 3.11.9
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-```
-
 ## Syllabus
 
 **Module 1: Introduction to Agentic Workflows**
@@ -81,6 +63,24 @@ pip install -r requirements.txt
 
 - Conclusion
 - Acknowledgments
+
+## Structure
+
+- `notes/` — per-module summary notes from the course slides
+- `quizzes/` — per-module quiz questions and answers
+- `assignments/` — course assignment notebooks
+- `labs/` — ungraded lab notebooks
+- `requirements.txt` — Python dependencies for the labs
+- `.python-version` — pyenv-pinned Python version for this project
+
+## Setup
+
+```bash
+pyenv local 3.11.9
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
 
 ## Key dependency
 
